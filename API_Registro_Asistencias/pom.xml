@@ -14,7 +14,7 @@
 	<name>API_Registro_Asistencias</name>
 	<description>Proyecto Web Asistencias</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
