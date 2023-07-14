@@ -46,7 +46,7 @@ public class UsuarioController {
 	}
 	
 	@GetMapping("/user/{nrodoc}")
-	public Usuario obtenerUsuario(@PathVariable("nrodoc") String nrodoc) {
+	public Usuario obtenerUsuario(@PathVariable String nrodoc) {
 		return usuarioService.obtenerUsuario(nrodoc);
 	}
 	
